@@ -1,6 +1,7 @@
 import nomi from "./name.js";
 import hobbies from "./hobbies.js";
 
+//uso named export per poter esportare più funzioni
 export function personeEHobbies() {
   return {
     fullName: nomi("Maria", "Rossi"),
@@ -11,3 +12,5 @@ export function personeEHobbies() {
     ),
   };
 }
+
+module.export = personeEHobbies();

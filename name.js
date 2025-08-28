@@ -4,4 +4,8 @@ function nomi(firstName, lastName) {
   return { firstName, lastName };
 }
 
+//ES6
 export default nomi;
+
+//CJS
+module.export = nomi;
