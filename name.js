@@ -5,7 +5,7 @@ function nomi(firstName, lastName) {
 }
 
 //ES6
-export default nomi;
+//export default nomi;
 
 //CJS
-module.export = nomi;
+module.exports = nomi;

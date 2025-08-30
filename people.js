@@ -1,8 +1,11 @@
-import nomi from "./name.js";
-import hobbies from "./hobbies.js";
+//import nomi from "./name.js";
+//import hobbies from "./hobbies.js";
+
+const nomi = require("./name.js");
+const hobbies = require("./hobbies.js");
 
 //uso named export per poter esportare più funzioni
-export function personeEHobbies() {
+function personeEHobbies() {
   return {
     fullName: nomi("Maria", "Rossi"),
     hobbies: hobbies(
@@ -13,4 +16,4 @@ export function personeEHobbies() {
   };
 }
 
-module.export = personeEHobbies();
+module.exports = personeEHobbies;
