@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
-  "type":"module",
+  "type":"commonjs",
   "scripts": {
     "watch-name": "node --watch name.js",
     "watch-main":"node --watch main.js",
