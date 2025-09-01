@@ -3,6 +3,6 @@ function hobbies(hobbyOne, hobbyTwo, hobbyThree) {
 }
 
 //ES6
-//export default hobbies;
-//CJS
-module.exports = hobbies;
+export default hobbies;
+/* //CJS
+module.exports = hobbies; */
